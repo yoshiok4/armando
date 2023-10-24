@@ -1,0 +1,38 @@
+figure.manji {
+    position:relative;
+    left: -8%;
+}
+
+figure.manji figcaption{
+    font-size: 52pt;
+    position: absolute;
+    top: 0%;
+    background-color: rgba(255, 0, 0, 0.4);
+    color: rgb(255, 255, 255);
+    width: 119%;
+    height: 99.3%;
+    opacity: 0%;
+    transition: opacity 2000ms;
+}
+
+figure.manji figcaption{
+    text-align:center;
+}
+figure.manji:hover figcaption{
+    opacity:100;
+}
+
+figure.manji img{
+    width: 119%;
+    height: 95%;
+}
+
+figure.titulo{
+    text-align:center;
+}
+
+p{
+    font-size:20pt;
+    font-style:initial;
+    font-style: oblique;
+}
